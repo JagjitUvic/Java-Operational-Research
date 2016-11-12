@@ -55,6 +55,7 @@ public class Random {
         	OiminusEisquaredividedEi[m] = OiminusEisquare[m]/Ei[m];
         	Total = Total + OiminusEisquaredividedEi[m];
         }
+        //printing outputs and results
 		System.out.println("****Chi-Square****");
         System.out.println("The Total for case one where alpha = 0.05 , X(square) = 18.3 , v = 10 = "+Total);
         System.out.println("The X(square) is more than actual Total from the experiment, therefore we wont reject it");
